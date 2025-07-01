@@ -26,8 +26,8 @@
 }
 .ttt-cell:disabled,
 .ttt-cell.cursor-default {
-  background: #f4f4f4;
-  color: #aaa;
+  background: transparent;
+  color: inherit;
   cursor: default;
 }
 .ttt-cell:not(:disabled):hover {
